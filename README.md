@@ -13,7 +13,7 @@ Step 3 :
             <code> ! ! Bot_Token_here ! ! </code>
 Step 4 :
     Set WebHook Like this ! :
-       https://api.telegram.org/bot<token>/setWebhook?url=https://mywebsite.com/path/to/bot.php
+       https://api.telegram.org/bot[token]/setWebhook?url=https://mywebsite.com/path/to/bot.php
 
 <b> Now your Bot Working :) </b>
 
