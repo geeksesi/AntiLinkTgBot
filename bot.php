@@ -187,7 +187,7 @@ if (isset($update["message"])) {
         if ($chat_type != 'private') {
             //anti URL
             if ($message_en_type == 'url') {
-                apiRequestWebhook(deleteMessage, array("chat_id" => $chat_id, "message_id" => $message_id));
+                apiRequestWebhook("deleteMessage", array("chat_id" => $chat_id, "message_id" => $message_id));
             }
 
         }
